@@ -1,0 +1,10 @@
+homepage: https://xenproject.org
+language: c
+main_repo: https://xenbits.xen.org/git-http/xen.git
+auto_ccs:
+  - "tamas.k.lengyel@gmail.com"
+sanitizers:
+  - address
+  - undefined
+fuzzing_engines:
+  - libfuzzer
